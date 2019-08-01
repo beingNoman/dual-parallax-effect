@@ -1,0 +1,69 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Dual Parallax Effect | beingNoman
+	Author: Md. Ohiduzzaman (Noman)
+	Author URI: http://www.beingnoman.com
+
+-----------------------------------------------------------------------------------*/
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-content {
+    width: 220px;
+    height: 60px;
+    border-radius: 50px 10px 50px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 60px;
+    color: #222;
+    background-color: #f786c4;
+
+
+}
+
+.header {
+    background-image: url(../img/01.jpg);
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section {
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.first {
+    background-image: url(../img/02.jpg);
+}
+
+.second {
+    background-image: url(../img/03.jpg);
+}
+
+.third {
+    background-image: url(../img/04.jpg);
+}
